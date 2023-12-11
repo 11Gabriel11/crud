@@ -24,31 +24,31 @@ include 'menu.php';
 
 		<div class="grupoInputs">
 		<label for="nombre">Apellido:</label>
-		<input type="text" name="apellido"><br>
+		<input type="text" name="apellido" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="nombre">Nombre:</label>
-		<input type="text" name="nombre"><br>
+		<input type="text" name="nombre" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="edad">Edad:</label>
-		<input type="text" name="edad"><br>
+		<input type="text" name="edad" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="edad">Clave:</label>
-		<input type="password" name="clave"><br>
+		<input type="password" name="clave" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="foto">Archivo</label>
-		<input type="file" name="foto"><br>
+		<input type="file" name="foto" required /><br>
 	    </div>
 
 		<div class="btn-submit">
-		<input type="submit" value="Modificar"><br>
+		<input type="submit" value="Modificar" required /><br>
 	    </div>
 	</form>
 </div>

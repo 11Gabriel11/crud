@@ -29,22 +29,22 @@ include 'menu.php';
 		
 		<div class="grupoInputs">
 		<label for="edad">Edad:</label>
-		<input type="number" name="edad"><br>
+		<input type="number" name="edad" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="clave">Clave</label>
-		<input type="password" name="clave"><br>
+		<input type="password" name="clave" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="pin">Pin</label>
-		<input type="number" name="pin"><br>
+		<input type="number" name="pin" required /><br>
 	    </div>
 
 		<div class="grupoInputs">
 		<label for="foto">Archivo</label>
-		<input type="file" name="foto"><br>
+		<input type="file" name="foto" required /><br>
 	    </div>
 
 		<div class="btn-submit">

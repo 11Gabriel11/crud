@@ -16,7 +16,7 @@ include 'menu.php';
 	<form class="altaInput" action="../funcionalidad/bajas.php" method="POST" >
 	    <div class="grupoInputs">
 		<label for="pin">Pin:</label>
-        <input type="number" name="pin"><br>	
+        <input type="number" name="pin" required /><br>	
         </div>
 		
 		<div class="btn-submit">
