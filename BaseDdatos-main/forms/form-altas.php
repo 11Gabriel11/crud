@@ -12,18 +12,19 @@ include 'menu.php';
 </head>
 <body>
 
+
 <div class="container">
-    <h3 class="altaTitulo">FORMULARIO DE ALTAS</h3>
+    <h3 class="altaTitulo">FORMULARIO gfdgfd DE ALTAS</h3>
 	<form class="altaInput" action="../funcionalidad/altas.php" method="POST" enctype="multipart/form-data">
 		
 		<div class="grupoInputs">
 			<label for="nombre">Nombre:</label>
-			<input type="text" name="nombre"><br>
+			<input type="text" name="nombre" required /><br>
         </div>
 
 		<div class="grupoInputs">
 		<label for="apellido">Apellido:</label>
-		<input type="text" name="apellido"><br>
+		<input type="text" name="apellido" required /><br>
 		</div>
 		
 		<div class="grupoInputs">
@@ -51,7 +52,7 @@ include 'menu.php';
 	    </div>
 	</form>
 </div>
-	
+
 	
 </body>
 </html>
